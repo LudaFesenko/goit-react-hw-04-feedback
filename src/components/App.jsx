@@ -6,10 +6,6 @@ import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 
 class App extends Component {
-  static defaultProps = {
-    initialStates: 0,
-  };
-
   state = {
     good: 0,
     neutral: 0,
