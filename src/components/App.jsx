@@ -29,6 +29,9 @@ function App() {
         setBad(prevState => prevState + 1);
         break;
       }
+      default: {
+        return;
+      }
     }
   };
   const total = good + neutral + bad;
